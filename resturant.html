@@ -11,19 +11,21 @@
     <div class="flex items-center justify-between">
                 <div>
                 <!-- logo -->
-                    <h2>
+                    <h2 class="text-lg  md:text-xl">
                         <a href="/">UrbanConnect</a>
                     </h2>
                 </div>
                 <div class="flex items-end ">
-                    <ul class="flex items-center gap-10">
-                        <li><a class="hover:text-green-500" href="rides and deliveries.html">Rides & Deliveries</a>
-                        </li>
+                    <ul class="hidden md:flex items-center gap-10">
+                        
                        
                         
-                         <li><a class="hover:text-green-500" href="resturant.html">Restaurant</a>
-                        </li>
+                         
                          <li><a class="hover:text-green-500" href="shopping.html">Shopping</a>
+                        </li>
+                        <li><a class="hover:text-green-500" href="resturant.html">Restaurant</a>
+                        </li>
+                        <li><a class="hover:text-green-500" href="rides and deliveries.html">Rides & Deliveries</a>
                         </li>
 
 
@@ -41,10 +43,16 @@
 
                              <a href="login.html">
                             <button class="bg-blue-500 text-white px-5 py-1 rounded-full hover:bg-green-500">Log in</button></a></li>
-                            
-
-
-
+                             <!--hamburger menu-->
+                            <button id="menu"  class="md:hidden text-2xl">☰</button>
+                            <!--how the menu will look like-->
+                            <div id="Mobile-menu" class="hidden flex-col mt-4 space-y-3 md:hidden text-lg">
+                                <a href="index.html" class="block hover:text-green-500">Home</a>
+                                <a href="shopping.html" class="block hover:text-green-500">Shopping</a>
+                                <a href="resturant.html" class="block hover:text-green-500">Restaurants</a>
+                                <a href="rides and deliveries.html" class="block hover:text-green-500">Rides & Deliveries</a>
+                                <a href="about.html" class="block hover:text-green-500">About Us</a>
+                            </div>
                         </div>
 
             </nav>
